@@ -3,7 +3,7 @@ import {updateNote} from "../../store/actions";
 import {connect} from "react-redux";
 
 
-function EditNotes(props) {
+export function EditNotes(props) {
 
     const [form, setForm] = useState({
         title: props.title,
@@ -29,22 +29,24 @@ function EditNotes(props) {
     return (
         <div key={props.id}>
             <form  onSubmit={handleUpdate}>
-                <label>Title</label>
-                <input
-                    name="title"
-                    value={form.title}
-                    onChange={handleChange}
-                    required
-                />
+                <label>Title
+                    <input
+                        name="title"
+                        value={form.title}
+                        onChange={handleChange}
+                        required
+                    />
+                </label>
                 <br/>
                 <br/>
-                <label>Text</label>
-                <textarea
-                    name="text"
-                    value={form.text}
-                    onChange={handleChange}
-                    required
-                />
+                <label>Text
+                    <textarea
+                        name="text"
+                        value={form.text}
+                        onChange={handleChange}
+                        required
+                    />
+                </label>
                 <br/>
                 <br/>
 

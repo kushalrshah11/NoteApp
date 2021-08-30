@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Note from "./../Note";
 import { connect } from "react-redux";
 import EditNotes from "../EditNotes";
@@ -33,21 +33,16 @@ const useStyles = makeStyles({
 function NoteList(props) {
     const classes = useStyles();
 
-
-
-    // console.log(props.counter.name);
-
-    const filteredItems = props.counter.counter.filter((note) => note.title.startsWith(props.counter.name) || note.text.startsWith(props.counter.name));
-    console.log(filteredItems);
+    const searchString = props.notes.search.toString().toLowerCase();
 
     return (
         <div>
 
         <Card className={classes.root}>
 
-                {filteredItems.map(note => (
+                {props.notes.notes.filter((note) => note.title.toLowerCase().includes(searchString) || note.text.toLowerCase().includes(searchString) || props.notes.search == null).map(note => (
                     <div key={note.id}>
-                        {note.editing ?  <CardContent><EditNotes text={note.text} title={note.title} id={note.id} key={note.id}/></CardContent> :
+                        {note.editing ? <CardContent><EditNotes text={note.text} title={note.title} id={note.id} key={note.id}/></CardContent> :
                             <CardContent><Note key={note.id} text={note.text} title={note.title} id={note.id}/></CardContent>}
                     </div>
                 ))}
@@ -59,8 +54,8 @@ function NoteList(props) {
 
 function mapStateToProps(state) {
     return {
-        counter: state,
-        name: state
+        notes: state,
+        search: state
     };
 }
 

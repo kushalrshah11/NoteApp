@@ -6,11 +6,19 @@ import {addNote} from "./../../store/actions";
 
 
 
-function AddNotes(props) {
+export function AddNotes(props) {
     const [form, setForm] = useState({
         title: "",
         text: ""
     });
+
+
+    /**
+     * Insert text at cursor position.
+     *
+     * @param {string} text
+     * @public
+     */
 
     function handleChange(e) {
         const {name, value} = e.target;
@@ -31,22 +39,22 @@ function AddNotes(props) {
                 <form onSubmit={handleSubmit}>
                     <h4>Add a Note</h4>
                     <div>
-                        <label>Title</label>
-                        <input
+                        <label>Title
+                            <input
                             name="title"
                             value={form.title}
                             onChange={handleChange}
-                            required
-                        />
+                            required/></label>
                     </div>
                     <div>
-                        <label>Text</label>
-                        <textarea
-                            name="text"
-                            value={form.text}
-                            onChange={handleChange}
-                            required
-                        />
+                        <label>Text
+                            <textarea
+                                name="text"
+                                value={form.text}
+                                onChange={handleChange}
+                                required
+                            />
+                        </label>
                     </div>
                     <div>
                         <button className="btn btn-blue">Add Note</button>
