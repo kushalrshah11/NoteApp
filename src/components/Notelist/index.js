@@ -43,7 +43,7 @@ function NoteList(props) {
                 {props.notes.notes.filter((note) => note.title.toLowerCase().includes(searchString) || note.text.toLowerCase().includes(searchString) || props.notes.search == null).map(note => (
                     <div key={note.id}>
                         {note.editing ? <CardContent><EditNotes text={note.text} title={note.title} id={note.id} key={note.id}/></CardContent> :
-                            <CardContent><Note key={note.id} text={note.text} title={note.title} id={note.id}/></CardContent>}
+                           <CardContent><Note key={note.id} text={note.text} title={note.title} id={note.id}/></CardContent>}
                     </div>
                 ))}
 

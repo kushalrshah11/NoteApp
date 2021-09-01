@@ -29,24 +29,18 @@ describe ( " Reducer", () => {
        ]);
     });
 
-    test("should return expected state for REMOVE_NOTE action type and specific state",()=>{
-
-
-        expect(reducerNotes(defaultState,{type : "REMOVE_NOTE"})).toEqual([
-        ]);
-    });
 
     test("should return expected state for EDIT_NOTE action type and specific state",()=>{
 
         const previousState = [{
-            id: 2001,
+            id: 200,
             title: "roma",
             text: "mehta",
             editing: "true"
         }];
         expect(reducerNotes(previousState,{type : "EDIT_NOTE"})).toEqual([
             {
-                id: 2001,
+                id: 200,
                 title: "roma",
                 text: "mehta",
                 editing: "true"

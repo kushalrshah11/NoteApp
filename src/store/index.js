@@ -10,6 +10,7 @@ const reducer =  combineReducers({
     search : reducerSearchString
 });
 
+
 const store = createStore(reducer);
 
 export default store;

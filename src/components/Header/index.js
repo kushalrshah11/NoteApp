@@ -60,18 +60,6 @@ const useStyles = makeStyles((theme) => ({
             width: '20ch',
         },
     },
-    sectionDesktop: {
-        display: 'none',
-        [theme.breakpoints.up('md')]: {
-            display: 'flex',
-        },
-    },
-    sectionMobile: {
-        display: 'flex',
-        [theme.breakpoints.up('md')]: {
-            display: 'none',
-        },
-    },
 }));
 
 
@@ -85,10 +73,12 @@ const useStyles = makeStyles((theme) => ({
 export function PrimarySearchAppBar(props) {
     const classes = useStyles();
 
+
     function filterByInput(event) {
         if(props.notes.notes.length === 0) {
             alert("Please add notes before you search");
             event.target.value = "";
+            props.filter(event.target.value);
         }
         else {
             let input = event.target.value;
