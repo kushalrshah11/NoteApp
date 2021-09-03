@@ -5,6 +5,7 @@ import EditNotes from "../EditNotes";
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import * as PropTypes from "prop-types";
 
 
 
@@ -28,9 +29,10 @@ const useStyles = makeStyles({
 
 
 
-
-
-function NoteList(props) {
+/**
+ * Displays List of Notes
+ */
+export function NoteList(props) {
     const classes = useStyles();
 
     const searchString = props.notes.search.toString().toLowerCase();
@@ -54,9 +56,12 @@ function NoteList(props) {
 
 function mapStateToProps(state) {
     return {
-        notes: state,
-        search: state
+        notes: state
     };
+}
+
+NoteList.propTypes = {
+      notes: PropTypes.object
 }
 
 export default connect(mapStateToProps)(NoteList);

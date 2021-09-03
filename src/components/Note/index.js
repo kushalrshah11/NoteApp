@@ -3,14 +3,18 @@ import { connect } from "react-redux";
 import {removeNote, editNote } from "../../store/actions";
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import * as PropTypes from "prop-types";
 
+
+/**
+ * Display Note - It displays the Note with Title and Text values along with EDIT &  DELETE button after user Add's a Note.
+ */
 
 export function Note(props) {
     return (
         <div>
             <Typography variant="h5" component="h2">Title: {props.title}</Typography>
             <Typography variant="h5" component="h2">Text: {props.text}</Typography>
-
             <Button variant="contained" color="primary" onClick={() => props.edit(props.id)}>Edit</Button>
             <Button variant="contained" color="secondary" onClick={() => props.remove(props.id)}>Delete</Button>
         </div>
@@ -26,6 +30,14 @@ function mapDispatchToProps(dispatch) {
             dispatch(removeNote(id));
         }
     };
+}
+
+
+Note.propTypes = {
+    title: PropTypes.string,
+    text: PropTypes.string,
+    edit: PropTypes.func,
+    remove : PropTypes.func
 }
 
 export default connect(
