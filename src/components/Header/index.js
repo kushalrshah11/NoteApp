@@ -8,6 +8,7 @@ import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import {filterNote} from "../../store/actions";
 import {connect} from "react-redux";
+import * as PropTypes from "prop-types";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -65,15 +66,14 @@ const useStyles = makeStyles((theme) => ({
 
 
 /**
- *
- *
- * @visibleName Navigation with Search Notes field 🐙
+ * Navigation with Search Notes field 🐙
  */
 
 export function PrimarySearchAppBar(props) {
     const classes = useStyles();
 
 
+    /** This is a search input field function which takes the input from the search field and processes further */
     function filterByInput(event) {
         if(props.notes.notes.length === 0) {
             alert("Please add notes before you search");
@@ -135,6 +135,12 @@ function mapDispatchToProps(dispatch) {
         }
     };
 }
+
+PrimarySearchAppBar.propTypes = {
+    notes: PropTypes.object.isRequired,
+    filter: PropTypes.func.isRequired
+}
+
 
 
 export default connect(

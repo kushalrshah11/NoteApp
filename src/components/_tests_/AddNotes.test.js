@@ -11,7 +11,7 @@ describe("Add Notes", () => {
         expect(
             screen.getByRole("heading", {name: "Add a Note"})
         ).toBeInTheDocument();
-        expect(screen.getByRole("button", {name: "Add Note"})).toBeInTheDocument();
+        expect(screen.getByRole("button", {name: "Add Note +"})).toBeInTheDocument();
         expect(screen.getByRole("textbox", {name: "Title"})).toBeInTheDocument();
         expect(screen.getByRole("textbox", {name: "Text"})).toBeInTheDocument();
     });
@@ -44,7 +44,7 @@ describe("Add Notes", () => {
     it("should validate form fields of Button", async () => {
         const mockSave = jest.fn();
         render(<AddNotes addNote={mockSave}/>);
-        fireEvent.submit(screen.getByRole("button", {name: "Add Note"}));
+        fireEvent.submit(screen.getByRole("button", {name: "Add Note +"}));
         expect(mockSave).toBeCalled();
 
     });
@@ -52,7 +52,7 @@ describe("Add Notes", () => {
     it("should handle note fields when the user Adds a Note", () => {
         const mockSave = jest.fn();
         render(<AddNotes addNote={mockSave}/>);
-        const addButton = screen.getByRole("button", { name: "Add Note" });
+        const addButton = screen.getByRole("button", { name: "Add Note +" });
 
         fireEvent.click(addButton);
         // Ingredient name + recipe name
