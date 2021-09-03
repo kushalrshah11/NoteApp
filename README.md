@@ -1,5 +1,7 @@
 # Note App
 
+Note App application allows you to store your notes by adding, editing and updating multiple notes. It also allows you to search notes which you have added.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
