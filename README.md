@@ -1,4 +1,4 @@
-# Note App
+# Notes App
 
 Note App application allows you to store your notes by adding, editing and updating multiple notes. It also allows you to search notes which you have added.
 
