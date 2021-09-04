@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 
 
 /**
- * Displays List of Notes - If there are more then one
+ * Displays List of Notes
  */
 export function NoteList(props) {
     const classes = useStyles();
