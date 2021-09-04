@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 
 
 /**
- * Displays List of Notes
+ * Displays List of Notes - If there are more then one
  */
 export function NoteList(props) {
     const classes = useStyles();
@@ -38,18 +38,13 @@ export function NoteList(props) {
     const searchString = props.notes.search.toString().toLowerCase();
 
     return (
-        <div>
-
-        <Card className={classes.root}>
-
+        <div className="note-list">
                 {props.notes.notes.filter((note) => note.title.toLowerCase().includes(searchString) || note.text.toLowerCase().includes(searchString) || props.notes.search == null).map(note => (
-                    <div key={note.id}>
-                        {note.editing ? <CardContent><EditNotes text={note.text} title={note.title} id={note.id} key={note.id}/></CardContent> :
-                           <CardContent><Note key={note.id} text={note.text} title={note.title} id={note.id}/></CardContent>}
+                    <div key={note.id} className="marginForCards">
+                        {note.editing ?  <Card className={classes.root}><CardContent><EditNotes text={note.text} title={note.title} id={note.id} key={note.id}/></CardContent></Card> :
+                            <Card className={classes.root}> <CardContent><Note key={note.id} text={note.text} title={note.title} id={note.id}/></CardContent></Card>}
                     </div>
                 ))}
-
-        </Card>
         </div>
     );
 }

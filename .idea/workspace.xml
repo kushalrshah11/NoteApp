@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c2389b33-075a-4137-9d2e-50e6e2acb598" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddNotes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddNotes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditNotes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditNotes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Note/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Note/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Notelist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Notelist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/_tests_/AddNotes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_tests_/AddNotes.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,12 +19,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/_tests_/AddNotes.test.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state relative-caret-position="-118">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
               <folding>
-                <element signature="e#2#28#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EditNotes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="179">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -48,11 +42,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/_tests_/Header.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/_tests_/Note.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <element signature="e#2#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            <state relative-caret-position="299">
+              <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -60,8 +78,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Notelist/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="410">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/_tests_/EditNotes.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Note/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/_tests_/App.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -72,63 +126,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Note/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AddNotes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/_tests_/Note.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#2#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/_tests_/actions.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding>
-                <element signature="e#1#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/components/_tests_/Notelist.test.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/App.test.js" />
-        <option value="$PROJECT_DIR$/src/components/_tests_/Note.test.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/Header.test.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/EditNotes.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -167,15 +167,16 @@
         <option value="$PROJECT_DIR$/src/components/_tests_/reducersMatchSnapshotsTest.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/reducerMatchSnapshots.test.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/reducers.test.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header/index.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/actions.test.js" />
-        <option value="$PROJECT_DIR$/src/components/Note/index.js" />
         <option value="$PROJECT_DIR$/src/components/AddNotes/index.js" />
         <option value="$PROJECT_DIR$/src/components/_tests_/AddNotes.test.js" />
         <option value="$PROJECT_DIR$/src/components/EditNotes/index.js" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Notelist/index.js" />
+        <option value="$PROJECT_DIR$/src/components/_tests_/Note.test.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/components/Note/index.js" />
       </list>
     </option>
   </component>
@@ -213,6 +214,13 @@
               <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="_tests_" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="EditNotes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,7 +228,27 @@
               <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Notelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NoteApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Notes.should create an action with UPDATE_NOTE type">
+  <component name="RunManager" selected="Jest.Notes.should render the basic fields">
     <configuration name=" Reducer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -279,54 +307,54 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="todos reducer (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Notes.should render the basic fields" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/_tests_/Note.test.js" />
+      <test-names>
+        <test-name value="Notes" />
+        <test-name value="should render the basic fields" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Notes.should validate button are getting called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/_tests_/Note.test.js" />
+      <test-names>
+        <test-name value="Notes" />
+        <test-name value="should validate button are getting called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing input search field" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/_tests_/reducerMatchSnapshots.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/_tests_/Header.test.js" />
       <test-names>
-        <test-name value="todos reducer" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="todos reducer.should handle TODO_REQUEST (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/_tests_/reducerMatchSnapshots.test.js" />
-      <test-names>
-        <test-name value="todos reducer" />
-        <test-name value="should handle TODO_REQUEST" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="todos reducer.should handle TODO_REQUEST" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/_tests_/reducersMatchSnapshotsTest.js" />
-      <test-names>
-        <test-name value="todos reducer" />
-        <test-name value="should handle TODO_REQUEST" />
+        <test-name value="Testing input search field" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Notes.should render the basic fields" />
+        <item itemvalue="Jest.Notes.should validate button are getting called" />
+        <item itemvalue="Jest.Testing input search field" />
         <item itemvalue="Jest.Notes.should create an action with UPDATE_NOTE type" />
         <item itemvalue="Jest. Reducer" />
-        <item itemvalue="Jest.todos reducer.should handle TODO_REQUEST (1)" />
-        <item itemvalue="Jest.todos reducer (1)" />
-        <item itemvalue="Jest.todos reducer.should handle TODO_REQUEST" />
       </list>
     </recent_temporary>
   </component>
@@ -346,26 +374,11 @@
       <workItem from="1630348865671" duration="4191000" />
       <workItem from="1630367917537" duration="8468000" />
       <workItem from="1630678928600" duration="2132000" />
-      <workItem from="1630701677399" duration="4609000" />
+      <workItem from="1630701677399" duration="9455000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="todos_reducer_should_return_the_initial_state - 2021.08.31 at 23h 30m 47s.xml">
-      <configuration name="todos reducer.should return the initial state" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="todos_reducer_should_handle_TODO_REQUEST - 2021.08.31 at 23h 30m 57s.xml">
-      <configuration name="todos reducer.should handle TODO_REQUEST" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="todos_reducer_(1) - 2021.08.31 at 23h 33m 51s.xml">
-      <configuration name="todos reducer (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="todos_reducer_(1) - 2021.08.31 at 23h 35m 23s.xml">
-      <configuration name="todos reducer (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="todos_reducer_(1) - 2021.08.31 at 23h 36m 15s.xml">
-      <configuration name="todos reducer (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="todos_reducer_should_handle_TODO_REQUEST_(1) - 2021.08.31 at 23h 36m 48s.xml">
       <configuration name="todos reducer.should handle TODO_REQUEST (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -381,9 +394,24 @@
     <history-entry file="Notes_should_create_an_action_with_UPDATE_NOTE_type - 2021.09.03 at 16h 33m 06s.xml">
       <configuration name="Notes.should create an action with UPDATE_NOTE type" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="Testing_input_search_field - 2021.09.03 at 17h 08m 38s.xml">
+      <configuration name="Testing input search field" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Notes_should_validate_button_are_getting_called - 2021.09.04 at 10h 52m 24s.xml">
+      <configuration name="Notes.should validate button are getting called" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Notes_should_render_the_basic_fields - 2021.09.04 at 10h 53m 40s.xml">
+      <configuration name="Notes.should render the basic fields" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Notes_should_render_the_basic_fields - 2021.09.04 at 10h 55m 00s.xml">
+      <configuration name="Notes.should render the basic fields" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Notes_should_render_the_basic_fields - 2021.09.04 at 10h 55m 51s.xml">
+      <configuration name="Notes.should render the basic fields" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100682000" />
+    <option name="totallyTimeSpent" value="105528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="56" width="1604" height="932" extended-state="0" />
@@ -401,7 +429,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39285713" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,37 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_tests_/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,30 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_tests_/Header.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_tests_/reducers.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_tests_/EditNotes.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,42 +523,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="70" selection-start-line="67" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_tests_/actions.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_tests_/Note.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#2#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Note/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,40 +556,124 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EditNotes/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/CardContent/CardContent.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Notelist/index.js">
+    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EditNotes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_tests_/Header.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Notelist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_tests_/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_tests_/EditNotes.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_tests_/Note.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#2#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        <state relative-caret-position="299">
+          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Note/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
