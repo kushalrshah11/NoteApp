@@ -4,6 +4,10 @@ Note App application allows you to store your notes by adding, editing and updat
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Clone the Repository
+
+git clone https://github.com/kushalrshah11/NoteApp.git
+
 ## Available Scripts
 
 In the project directory, you can run:
