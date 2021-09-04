@@ -21,7 +21,7 @@ body, html {
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 2.5px 0 rgba(0, 0, 0, .1);
-    text-overflow: wrap;
+    text-overflow: initial;
     position: relative;
 
     button.delete {
@@ -80,12 +80,24 @@ body, html {
 .app {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+
   .note-list {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 
     @include note;
+  }
+
+  .marginForCards {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .buttons-edit-delete {
+    display: flex;
+    justify-content: flex-end;
   }
 
   form {

@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import {removeNote, editNote } from "../../store/actions";
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import EditIcon from '@material-ui/icons/Edit';
+import DeleteIcon from '@material-ui/icons/Delete';
 import * as PropTypes from "prop-types";
 
 
@@ -15,8 +17,10 @@ export function Note(props) {
         <div>
             <Typography variant="h5" component="h2">Title: {props.title}</Typography>
             <Typography variant="h5" component="h2">Text: {props.text}</Typography>
-            <Button variant="contained" color="primary" onClick={() => props.edit(props.id)}>Edit</Button>
-            <Button variant="contained" color="secondary" onClick={() => props.remove(props.id)}>Delete</Button>
+            <div className="buttons-edit-delete">
+            <Button variant="contained" color="primary" onClick={() => props.edit(props.id)}><EditIcon></EditIcon>Edit</Button>
+            <Button variant="contained" color="secondary" onClick={() => props.remove(props.id)}><DeleteIcon></DeleteIcon>Delete</Button>
+            </div>
         </div>
     );
 }
