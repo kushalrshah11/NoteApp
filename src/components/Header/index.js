@@ -99,7 +99,7 @@ export function PrimarySearchAppBar(props) {
                     >
                     </IconButton>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        Note App
+                        Notes App
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
